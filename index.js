@@ -71,7 +71,6 @@ module.exports = {
     "comma-style": 2,
     "eol-last": 2,
     "indent": 2,
-    "key-spacing": 2,
     "new-cap": 2,
     "new-parens": 2,
     "no-array-constructor": 2,
