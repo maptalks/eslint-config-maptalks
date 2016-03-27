@@ -36,7 +36,6 @@ module.exports = {
     "no-self-compare": 2,
     "no-sequences": 2,
     "no-void": 2,
-    "no-eq-null": 2,
     "no-unmodified-loop-condition": 2,
     "no-unused-expressions": 2,
     "no-useless-call": 2,
