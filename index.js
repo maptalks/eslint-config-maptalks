@@ -32,7 +32,6 @@ module.exports = {
     "no-loop-func": 2,
     "no-new-wrappers": 2,
     "no-return-assign": 2,
-    "no-new": 2,
     "no-throw-literal": 2,
     "no-self-compare": 2,
     "no-sequences": 2,
