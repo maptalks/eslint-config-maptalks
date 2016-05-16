@@ -1,8 +1,8 @@
 /**
  * Based on @mourner's work eslint-config-mourner
- * 
+ *
  * https://github.com/mourner/eslint-config-mourner
- * 
+ *
  */
 module.exports = {
   "extends": "eslint:recommended",
@@ -70,7 +70,6 @@ module.exports = {
     "comma-style": 2,
     "eol-last": 2,
     "indent": 2,
-    "new-cap": 2,
     "new-parens": 2,
     "no-array-constructor": 2,
     "no-empty": 2,
