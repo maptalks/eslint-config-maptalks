@@ -70,6 +70,8 @@ module.exports = {
     "comma-style": 2,
     "eol-last": 2,
     "indent": 2,
+    "key-spacing": 0,
+    "new-cap": 0,
     "new-parens": 2,
     "no-array-constructor": 2,
     "no-empty": 2,
