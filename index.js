@@ -4,6 +4,8 @@
  * https://github.com/mourner/eslint-config-mourner
  *
  */
+
+/* eslint quotes: ["error", "double"] */
 module.exports = {
   "extends": "eslint:recommended",
   "env": {
@@ -80,7 +82,7 @@ module.exports = {
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-unneeded-ternary": 2,
-    "object-curly-spacing": 2,
+    "object-curly-spacing": [2, "always", { "objectsInObjects": false }],
     "operator-linebreak": [2, "after"],
     "semi-spacing": 2,
     "semi": 2,
