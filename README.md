@@ -1,7 +1,7 @@
 # eslint-config-maptalks
 An ESLint config for MapTalks javascript projects
 
-##Install
+## Install
 ```bash
 npm install eslint eslint-config-maptalks --save-dev
 ```
@@ -11,9 +11,9 @@ Then add a following .eslintrc file in the repo root:
   "extends": "maptalks"
 }
 ```
-##Usage
+## Usage
 
-###CLI
+### CLI
 
 ```bash
 npm install eslint eslint-config-maptalks -g
@@ -24,7 +24,7 @@ Simple errors like indentation or quotes can be fixed automatically by
 eslint src/**/*.js --fix
 ```
 
-###With gulp-eslint
+### With gulp-eslint
 ```javascript
 var eslint = require('gulp-eslint');
 gulp.task('lint', function() {
@@ -42,7 +42,7 @@ gulp.task('lint', function() {
 });
 ```
 
-###In package.json
+### In package.json
 ```javascript
 "scripts": {
   "lint": "eslint src/**/*.js",
@@ -53,7 +53,7 @@ Run in terminal and enjoy thousands of errors:
 ```bash
 npm run lint
 ```
-##Config
+## Config
 Can be extended by .eslintrc file
 ```javascript
 {
@@ -64,5 +64,5 @@ Can be extended by .eslintrc file
 }
 ```
 
-##Credits
+## Credits
 based on [mourner](https://github.com/mourner)'s [eslint-config-mourner](https://github.com/mourner/eslint-config-mourner)
