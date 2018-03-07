@@ -13,7 +13,6 @@ module.exports = {
     "browser": true
   },
   "globals": {
-    "maptalks": true
   },
   "rules": {
     // disabling unnecessary recommended rules
