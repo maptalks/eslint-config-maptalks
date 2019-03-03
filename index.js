@@ -71,7 +71,7 @@ module.exports = {
     "comma-style": 2,
     "eol-last": 2,
     "indent": 2,
-    "key-spacing": 0,
+    "key-spacing": 2,
     "new-cap": 0,
     "new-parens": 2,
     "no-array-constructor": 2,
@@ -81,7 +81,7 @@ module.exports = {
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-unneeded-ternary": 2,
-    "object-curly-spacing": [2, "always", { "objectsInObjects": false }],
+    "object-curly-spacing": [2, "always"],
     "operator-linebreak": [2, "after"],
     "semi-spacing": 2,
     "semi": 2,
@@ -91,6 +91,10 @@ module.exports = {
     "space-in-parens": 2,
     "space-infix-ops": 2,
     "space-unary-ops": 2,
-    "quotes": [2, "single"]
+    "quotes": [2, "single"],
+
+    //es6
+    "no-var" : "error",
+    "prefer-const": "error"
   }
 }
